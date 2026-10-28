@@ -1,0 +1,55 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node / JS dependencies and build artifacts
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+/package.json
+/package-lock.json
+
+# Java / Maven build output
+target/
+backend/target/
+*.class
+
+# Temporary, test, and generated assets
+temp/
+*.log
+*.tmp
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.html
+/lokmat*.json
+/sheets.json
+
+# Scratch root scripts
+/analyze.js
+/check_*.js
+/check_*.py
+/extract_*.js
+/function_*.js
+/home_*.js
+/patch*.js
+/patch*.py
+/test_*.js
+/temp*.html
+/lokmat*.html
+
+# Backend test/scratch artifacts
+backend/*.html
+backend/*.js
+backend/*.jpg
+backend/*.pdf
+backend/*.json
+backend/*.txt
+backend/package.json
+backend/package-lock.json
+backend/TestStitch.*
+backend/start-workers.ps1
